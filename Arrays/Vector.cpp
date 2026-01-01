@@ -23,6 +23,7 @@ int main(){
 
     arr4.pop_back();
     arr4.erase(remove(arr4.begin(), arr4.end(), 2), arr4.end());
+    cout << arr4.at(2) << "\n";
     for(int x : arr4)
     cout << x << " ";
 
