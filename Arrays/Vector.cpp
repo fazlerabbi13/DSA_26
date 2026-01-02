@@ -19,7 +19,9 @@ int main(){
     vector<int> arr4 = {1 , 2, 3, 4, 5};
     arr4.push_back(6);
 
-    arr4.insert(arr4.begin() + 1, 2);
+    // arr4.insert(arr4.begin() + 1, 2);
+    auto it = arr4.emplace ( arr4.begin()+1, 100 );
+    // arr4.emplace ( it, 200 );
 
     arr4.pop_back();
     arr4.erase(remove(arr4.begin(), arr4.end(), 2), arr4.end());
