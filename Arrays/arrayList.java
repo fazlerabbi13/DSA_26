@@ -11,6 +11,9 @@ public class arrayList {
         arr.add(1,"robi");
 
         arr.remove(0);
+
+        arr.remove("robi");
+
         System.out.println(arr);
     }
 }
