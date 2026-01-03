@@ -10,6 +10,7 @@ public class arrayList {
 
         arr.add(1,"robi");
 
+        arr.remove(0);
         System.out.println(arr);
     }
 }
