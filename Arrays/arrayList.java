@@ -14,17 +14,17 @@ public class arrayList {
 
         arr.set(0, "Rabbi");
         
+        System.out.println(arr.contains("robi"));
 
-        ArrayList<String> arr2 = new ArrayList<>();
+        // ArrayList<String> arr2 = new ArrayList<>();
         
-        arr2.add("apple");
-        arr2.add("orange");
-        arr2.add("pineapple");
+        // arr2.add("apple");
+        // arr2.add("orange");
+        // arr2.add("pineapple");
 
-
-        arr.addAll(arr2);
+        // arr.addAll(arr2);
         System.out.println(arr);
 
-        System.out.println(arr2);
+        // System.out.println(arr2);
     }
 }
