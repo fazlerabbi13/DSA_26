@@ -7,15 +7,24 @@ public class arrayList {
         arr.add("ali");
         arr.add("abbas");
         arr.add("ahmed");
-
         arr.add(1,"robi");
 
         arr.remove(0);
-
         arr.remove("robi");
 
         arr.set(0, "Rabbi");
+        
 
+        ArrayList<String> arr2 = new ArrayList<>();
+        
+        arr2.add("apple");
+        arr2.add("orange");
+        arr2.add("pineapple");
+
+
+        arr.addAll(arr2);
         System.out.println(arr);
+
+        System.out.println(arr2);
     }
 }
