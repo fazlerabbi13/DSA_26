@@ -16,5 +16,12 @@ vector<int> prefixSum(vector<int> &arr){
 }
 
 int main(){
+    vector<int> arr = {10, 5, 20, 7, 19};
+    vector<int> prefSum = prefixSum(arr);
 
+    for(auto i : prefSum){
+        cout << i << " ";
+    }
+
+    return 0;
 }
