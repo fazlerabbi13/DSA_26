@@ -28,14 +28,14 @@ int findMinIndex(vector<int>& arr){
             minIndex = mid2;
         }
     }
-    return 0;
+    return minIndex;
 }
 
 int main(){
-    vector<int> arr = {10, 8, 4, 2, 5, 9, 11};
+    vector<int> arr = {10, 5, 2, 0, 7, 9};
     int index = findMinIndex(arr);
 
     cout << index << "\n";
-    
+
     return 0;
 }
